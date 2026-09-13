@@ -1,0 +1,86 @@
+project:
+  type: website
+  output-dir: docs
+  post-render: touch docs/.nojekyll
+  resources:
+    - files/**
+    - CNAME
+
+website:
+  search: false
+  title: "Alexandros Kentikelenis"
+  site-url: https://www.kentikelenis.net
+  description: "Professor of Political Economy and Sociology, Bocconi University. Global governance, international political economy, global health and social protection."
+  image: files/images/portrait.jpg
+  favicon: files/images/favicon.png
+  open-graph: true
+  twitter-card: true
+  page-navigation: false
+  navbar:
+    pinned: true
+    logo: ""
+    left:
+      - text: "About"
+        href: about.qmd
+      - text: "Books"
+        href: books.qmd
+      - text: "Academic writing"
+        href: academic-writing.qmd
+      - text: "Policy"
+        href: policy.qmd
+      - text: "Media"
+        href: media.qmd
+      - text: "Teaching & students"
+        href: teaching.qmd
+      - text: "CV"
+        href: cv.qmd
+    right:
+      - icon: envelope
+        href: "mailto:alexandros.kentikelenis@unibocconi.it"
+        aria-label: Email
+      - icon: mortarboard-fill
+        href: https://scholar.google.co.uk/citations?user=WSKvdv4AAAAJ
+        aria-label: Google Scholar
+      - icon: twitter-x
+        href: https://x.com/Kentikelenis
+        aria-label: X
+      - icon: linkedin
+        href: https://www.linkedin.com/in/alexandros-kentikelenis/
+        aria-label: LinkedIn
+      - text: <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAiCAYAAACnSgJKAAADhklEQVR42rWWy4tcVRDGv+rbMz0RUWMWukkigg8QxZAhBsFFTCALEVw4BBGNiDgD2UTBLIxZCSqCIuLzD9CFiwQRkXFhVoIoGhU0ijC6SMhCDSGMmczj3p+b7yY1l06ne3r6wKU4VXVPPU7Vd0oawQJaps8AP3J5zQEvAW2N2PCryej3wNfAkvefABPrbbgw3Wkj54GHk/w24FfLDq638bbpW0AFvFbzk2wHMAPcPKqUf+no9gKFjRfAeNZf74vHdKPp+YgogSIiSknlKuNXqTy68ML8KiJWydO+jnDZtAIek3SPpEpSIalsR8TKMAXmiHquiAB4WtKeZuTHJC1Kmk/8lqSOpAnTcafsX0lzkr6VdDwi/gNaEVHZmXD0Sz5nLNXCtK9jo6SjkibaTsM2SbcPGPifwOsR8YEPJ13JOetc6/aLiJizI5skbXDAl1L4OLAMXDR9AtjqbwtwF7AP+JzV6706utRO77jVXk6yOguPWnZCwBgQVjidDr2/x10fts5F06fMHzd9wPyzwCPJqUngN8ueqw8LfxmHd9cem7bqfvU/s46gBE5aFkn+djrrL+D3tP8C6FwybvpDUtiVITOjmB2Zst6KHbiz1k9gMw18A8w7Sz8BL64CmwGN1wffm4xXwIMNfI/0zw3AjY1zYhiEW0mgE2mfe7swGJ1r4H8ZEWt6V1uAJG1Oxhck/VGjWXKgzFmICDKotQZEtJBUg8pUMv5VRJwx4tEN4brxe935HhdXp34Sk94uYNGFBjDZrT4GiahpfLKL3jiw3/1LHgrWYrjd4zU7AvxinC4kbZG0M8HwvKRDEfF+vw9Mv5GXXHmdBt4E7lhzqq8SeUg6KOmkdaYkPelKXoqI5+u2GeZJ7nXn9yX59cDfBhSAd/PMNgrjuw2V11g2Y/6Sr2XHsGnvB17r4a8AvjOUVsDPrv4iQ+lAaNXvUOhqPuD9sqS7Jb1ifjGqyIsGfaPxlj801P33aTyc4g0eCCoX4D/ALWu5/1YTtxsPSDTH4ohYkLTf6S8lbZJ01IVZDeRAGqMCOJUin7K8k1OaRqIXrHfB9LOUpbH63e/XiX1O44LpsSsdkBz4yIYXTWeBrYMY/dht022dAY57Hus05r16pvuw8c9Z8/bWer3gdbOkU5JOeJZeMby2JV3nIf/W3E6eUmRonQY+lTQjabukmyQ9K+lCRMzW00w34/8DFpEbuYJT/WEAAAAASUVORK5CYII=" alt="ResearchGate" style="height:1.05rem;width:auto;vertical-align:middle;position:relative;top:2px;display:inline-block;">
+        href: https://www.researchgate.net/profile/Alexandros-Kentikelenis
+        aria-label: ResearchGate
+  page-footer:
+    left: "© Alexandros Kentikelenis · Bocconi University, Via Röntgen 1, 20136 Milan, Italy"
+    right: "Built with [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - assets/styles.scss
+    toc: false
+    page-layout: article
+    grid:
+      body-width: 760px
+      margin-width: 220px
+      sidebar-width: 0px
+    link-external-newwindow: true
+    include-after-body:
+      - text: |
+          <script data-newtab-script>
+          // Open external links and file downloads in a new tab; keep site navigation in this tab.
+          document.addEventListener("DOMContentLoaded", function () {
+            document.querySelectorAll("a[href]").forEach(function (a) {
+              var h = a.getAttribute("href") || "";
+              var external = /^https?:\/\//i.test(h) && a.hostname !== window.location.hostname;
+              var isFile = /\.pdf(\?|#|$)/i.test(h);
+              if (external || isFile) { a.target = "_blank"; a.rel = "noopener"; }
+            });
+          });
+          </script>
+    include-in-header:
+      - text: |
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">

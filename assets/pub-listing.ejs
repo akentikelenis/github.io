@@ -1,0 +1,57 @@
+<%
+const catNames = { gov: "Global governance & IPE", health: "Global health & social protection" };
+// All markup is written literally (never assembled in strings) because some
+// Quarto versions escape raw-output EJS tags. Inline styles keep the buttons
+// rendering identically across Quarto versions.
+const B = 'display:inline-block;padding:2.5px 10px;border-radius:3px;margin:0 7px 5px 0;font-family:Menlo,Consolas,monospace;font-size:0.66rem;letter-spacing:0.04em;text-transform:uppercase;color:#fff;text-decoration:none;';
+const NL = 'margin:0 0 4px;font-size:0.9rem;';
+const shade = { pdf:'#3730A3', doi:'#4F46E5', data:'#6366F1', cited:'#818CF8', award:'#B91C1C', reviewed:'#4338CA', media:'#0EA5E9' };
+const ghost = 'opacity:0.38;';
+function asList(x){ if(!x) return []; if(!Array.isArray(x)) x=[x];
+  return x.map(i => (typeof i === 'object') ? i : {text: String(i)}); }
+let prevLabel = null;
+%>
+<div class="pub-list">
+<% for (const item of items) {
+   const cats = Array.isArray(item.cats) ? item.cats : (item.cats ? [item.cats] : []);
+   const doiUrl = item.doi ? ("https://doi.org/" + item.doi) : null;
+   const titleLink = doiUrl || item.url || null;
+   const label = (item.type === "wip") ? "Work in progress" : String(item.year);
+   const showLinksRow = (item.type !== "wip");
+   const showCatFlags = (item.type === "article" || item.type === "other" || item.type === "short" || item.type === "wip");
+   const linkLabel = "Link";
+   const awards = asList(item.awards || item.award);
+   const cited = asList(item.cited_in || item.cited);
+   const reviewed = asList(item.reviewed_in || item.reviewed);
+   const media = asList(item.media_in || item.media);
+%>
+<% if (label !== prevLabel) { prevLabel = label; %>
+<div class="pub-year"><%= label %></div>
+<% } %>
+<div class="pub" data-cats="<%= cats.join(' ') %><% if (item.fav) { %> fav<% } %>" data-year="<%= item.year %>">
+  <p class="pub-cite"><%= item.authors %> (<%= item.year %>). <span class="pub-title"><% if (titleLink) { %><a href="<%= titleLink %>"><%= item.title %></a><% } else { %><%= item.title %><% } %>.</span><% if (item.type !== "wip" && item.venue) { %> <span class="pub-venue"><%= item.venue %></span><% if (item.detail) { %> <%= item.detail %><% } %>.<% } %></p>
+  <% if ((showCatFlags && cats.length) || item.fav || item.note) { %>
+  <p class="pub-notes">
+    <% if (item.fav) { %><span class="flag flag-fav" title="One of my favourite pieces"><span class="fav-emoji">🥰</span></span><% } %>
+    <% if (showCatFlags) { for (const c of cats) { %><span class="flag flag-cat"><%= catNames[c] || c %></span><% } } %>
+    <% if (item.note) { %><%= item.note %>.<% } %>
+  </p>
+  <% } %>
+  <% if (showLinksRow) { %>
+  <p class="pub-links"><% if (item.pdf) { %><a href="<%= encodeURI(item.pdf) %>" style="<%= B %>background:<%= shade.pdf %>;">PDF</a><% } %><% if (doiUrl) { %><a href="<%= doiUrl %>" style="<%= B %>background:<%= shade.doi %>;">DOI</a><% } else if (item.url) { %><a href="<%= item.url %>" style="<%= B %>background:<%= shade.doi %>;"><%= linkLabel %></a><% } else if (item.type === "oped") { %><span class="nolink" style="<%= B %>background:<%= shade.doi %>;<%= ghost %>"><%= linkLabel %> — to add</span><% } %><% if (item.data && item.data !== "none") { %><a href="<%= item.data %>" style="<%= B %>background:<%= shade.data %>;">Replication data</a><% } %></p>
+  <% } %>
+  <% for (const it of awards) { %>
+  <p class="pub-note-line" style="<%= NL %>"><span style="<%= B %>background:<%= shade.award %>;">Award</span> <% if (it.url) { %><a href="<%= it.url %>"><%= it.text %></a><% } else { %><%= it.text %><% } %></p>
+  <% } %>
+  <% for (const it of reviewed) { %>
+  <p class="pub-note-line" style="<%= NL %>"><span style="<%= B %>background:<%= shade.reviewed %>;">Reviewed in</span> <% if (it.url) { %><a href="<%= it.url %>"><%= it.text %></a><% } else { %><%= it.text %><% } %></p>
+  <% } %>
+  <% for (const it of cited) { %>
+  <p class="pub-note-line" style="<%= NL %>"><span style="<%= B %>background:<%= shade.cited %>;">Cited in</span> <% if (it.code && it.url && it.text.indexOf(it.code) >= 0) { const k = it.text.indexOf(it.code); %><%= it.text.slice(0, k) %><a href="<%= it.url %>"><%= it.code %></a><%= it.text.slice(k + it.code.length) %><% } else if (it.url) { %><a href="<%= it.url %>"><%= it.text %></a><% } else { %><%= it.text %><% } %></p>
+  <% } %>
+  <% for (const it of media) { %>
+  <p class="pub-note-line" style="<%= NL %>"><span style="<%= B %>background:<%= shade.media %>;">Coverage in</span> <% if (it.url) { %><a href="<%= it.url %>"><%= it.text %></a><% } else { %><%= it.text %><% } %></p>
+  <% } %>
+</div>
+<% } %>
+</div>

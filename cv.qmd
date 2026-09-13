@@ -1,0 +1,9 @@
+---
+title: "Curriculum vitae"
+---
+
+<!-- To update: overwrite files/cv/kentikelenis_cv.pdf with the new PDF (same filename), edit the date above, re-render. -->
+
+[Download the CV as a PDF](files/cv/kentikelenis_cv.pdf){.btn .btn-outline-dark .btn-sm}
+
+<iframe class="cv-frame" src="files/cv/kentikelenis_cv.pdf#view=FitH" title="Curriculum vitae of Alexandros Kentikelenis"></iframe>

@@ -1,0 +1,32 @@
+---
+title: "Teaching & students"
+---
+
+## Courses at Bocconi University
+
+<ul class="plain-list">
+<li><span class="outlet">Research Design</span> <span class="when">· PhD in Social &amp; Political Sciences · since 2018</span><br>Core doctoral seminar on how to develop a research question and turn it into a tractable empirical project that can be published in a leading social science outlet. 
+<p class="media-link"><a href="files/syllabi/research-design.pdf">Syllabus</a></p></li>
+<li><span class="outlet">International Politics and Society</span> <span class="when">· PhD in Social &amp; Political Sciences · since 2021</span><br>Core doctoral seminar on international political economy, international organisations and the sociology of globalisation.
+<p class="media-link"><a href="files/syllabi/international-politics-society.pdf">Syllabus</a></p></li>
+<li><span class="outlet">European Politics</span> <span class="when">· MSc in Politics and Policy Analysis · since 2025</span><br>How European integration functions in practice. 
+<p class="media-link"><a href="files/syllabi/european-politics.pdf">Syllabus</a></p></li>
+<li><span class="outlet">The Management of International Organizations and NGOs</span> <span class="when">· MSc in Government and International Organizations · since 2018</span><br>How international bureaucracies are organised, governed and reformed, with case studies of the World Bank and WHO and guest sessions with practitioners.
+<p class="media-link"><a href="files/syllabi/management-io-ngos.pdf">Syllabus</a></p></li>
+<li><span class="outlet">The Road to the Green Transition</span> <span class="when">· CIVICA multi-campus course · since 2024</span><br>Multi-instructor course offered across the CIVICA alliance on the politics and economics of decarbonisation.
+<p class="media-link"><a href="files/syllabi/green-transition.pdf">Syllabus</a></p></li>
+</ul>
+
+
+## Prospective PhD students 
+
+**What I am open to supervising.** Highly ambitious projects in international and european political economy; global health governance; global social protection; and the political economy of the green transition. I am very open in terms of methodological approaches (my work relies on both quantitative and qualitative methods), provided they are appropriate to answer the research questions being investigated.
+
+**How to get in touch.** As I am the director of the [Bocconi PhD in Social and Political Sciences](https://www.unibocconi.eu/en/programs/phd/phd-social-and-political-science), I sit on the admissions committee and therefore cannot offer detailed advice or guidance on your research ideas. So, as long as your interests align with mine, you can assume that I am in principle available to supervise. Confirmation by a supervisor that they are interested in working with you is *not* necessary at the application stage. Bocconi has many [leading academics](https://sps.unibocconi.eu/people) who are available to supervise PhD students, so you should take a close look at whose work might be the best fit with your research interests. Any questions about the Bocconi SPS PhD program should be directed to [phd.sps@unibocconi.it](mailto:phd.sps@unibocconi.it).
+
+**Current and former students and postdocs.**
+<!-- Add names with links, e.g. <li><a href="...">Name</a> — PhD 2024, now Assistant Professor at X</li> -->
+<ul class="plain-list">
+<li>To be added.</li>
+</ul>  
+

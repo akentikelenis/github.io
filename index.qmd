@@ -1,0 +1,34 @@
+---
+title: ""
+pagetitle: "Alexandros Kentikelenis"
+page-layout: article
+---
+
+::: {.hero}
+![](files/images/hero.jpg){fig-alt="Alexandros Kentikelenis"}
+:::
+
+I am Professor of Political Economy and Sociology at Bocconi University in Milan, where I direct the [PhD Programme in Social and Political Sciences](https://www.unibocconi.it/en/programs/phd/phd-social-and-political-science) and coordinate the 'Politics and the Welfare State' research unit at the [Dondena Centre](https://dondena.unibocconi.eu/research/research-units/politics-and-welfare-state). I am a scholar of global governance, studying how international cooperation is sustained under pressure and how international organisations develop and diffuse policies that shape social protection and inequality around the world. Before moving to Milan, I held research posts at Oxford, Cambridge and Harvard. 
+
+I have co-authored four books, most recently *How Europe Survives: The Adaptability and Resilience of a Continent in Peril* (Oxford University Press, 2026, with Catherine De Vries) and *Making Global Norms: Politics versus Science in International Organizations* (Oxford University Press, 2025, with Leonard Seabrooke), which received the American Society of International Law's prize for the best book on international law and social science. My earlier books, *Greening the International Monetary Fund* and *A Thousand Cuts: Social Protection in the Age of Austerity* (both with Thomas Stubbs), draw on the largest database of IMF-mandated reforms to trace their consequences for public services and inequality. My academic articles have appeared in leading journals, including the *American Journal of Political Science*, the *American Journal of Sociology*, the *American Sociological Review*, *The Lancet* and *World Development*. My research has received multiple professional awards, including the 2024 Henrik Enderlein Prize for Research Excellence in the Social Sciences.
+
+Beyond academia, I work closely with policymakers and civil society. I serve on the Lancet Commission on Global Governance for Health and on the World Health Organization's expert group on the economics of health and wellbeing. Over the years, I have advised governmental, intergovernmental, and non-governmental organisations, including Germany’s Federal Ministry for Economic Cooperation and Development, the World Health Organization, Recourse Foundation, and Oxfam International. Between 2020 and 2024 I was Vice-President of Greece's National Centre for Social Solidarity. 
+
+I have also written regularly for a wider public, including in the *New York Times*, the *Washington Post*, the *Guardian* and *Kathimerini*, and my work has been covered by major international press outlets.
+
+::: {.press-note}
+**Contact.** Department of Social and Political Sciences, Bocconi University, Via Röntgen 1, 20136 Milan, Italy · [alexandros.kentikelenis@unibocconi.it](mailto:alexandros.kentikelenis@unibocconi.it)
+:::
+
+::: {.press-note}
+**Connect.** [Google Scholar](https://scholar.google.co.uk/citations?user=WSKvdv4AAAAJ) · [LinkedIn](https://www.linkedin.com/in/alexandros-kentikelenis/) · [X (@Kentikelenis)](https://x.com/Kentikelenis) · [ORCID](https://orcid.org/0000-0002-1543-4595) · [ResearchGate](https://www.researchgate.net/profile/Alexandros-Kentikelenis) 
+:::
+
+<script>
+// Move the hero photo directly beneath the navbar so it spans the full window width.
+document.addEventListener("DOMContentLoaded", function () {
+  const hero = document.querySelector(".hero");
+  const header = document.getElementById("quarto-header");
+  if (hero && header) { header.insertAdjacentElement("afterend", hero); document.body.classList.add("hero-moved"); }
+});
+</script>

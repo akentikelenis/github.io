@@ -1,0 +1,165 @@
+# Op-eds and public writing (type: oped). PDFs live in: files/media/
+# Fields: authors (with terminal period after a final initial), year, title (no
+# trailing period - the template adds one), venue (trailing comma so the
+# rendered line reads "Venue, date"), detail (day month; "; in Greek" where
+# applicable - no year, since the year appears after the authors), url.
+
+- type: oped
+  year: 2026
+  authors: "Kentikelenis, A."
+  title: "From Euroscepticism to Eurorealism"
+  venue: "Kathimerini,"
+  detail: "28 June; in Greek"
+  url: https://www.kathimerini.gr/opinion/564311479/apo-ton-eyroskeptikismo-ston-eyrorealismo/
+
+- type: oped
+  year: 2024
+  authors: "Bradlow, B., and A. Kentikelenis"
+  title: "Technology transfer and green industrial transformation"
+  venue: "Phenomenal World,"
+  detail: "18 December"
+  url: https://www.phenomenalworld.org/analysis/tech-transfer/
+
+- type: oped
+  year: 2024
+  authors: "Kentikelenis, A."
+  title: "Heatwaves and Greece's economic vicious cycle"
+  venue: "Kathimerini,"
+  detail: "4 August; in Greek"
+  url: https://www.kathimerini.gr/opinion/563158102/kaysones-kai-oikonomikos-faylos-kyklos/
+
+- type: oped
+  year: 2024
+  authors: "Kentikelenis, A., and T. Stubbs"
+  title: "The origins of conditionality: How the IMF turned to austerity"
+  venue: "Phenomenal World,"
+  detail: "18 April"
+  url: https://www.phenomenalworld.org/analysis/the-origins-of-conditionality/
+
+- type: oped
+  year: 2023
+  authors: "Kentikelenis, A."
+  title: "Presumptive taxation and the road to tax justice"
+  venue: "Kathimerini,"
+  detail: "26 November; in Greek"
+  url: https://www.kathimerini.gr/opinion/562749340/ta-tekmiria-kai-o-dromos-pros-ti-forologiki-dikaiosyni/
+
+- type: oped
+  year: 2021
+  authors: "Kentikelenis, A., and L. Seabrooke"
+  title: "New variants mean we're only as strong as the weakest national health systems. Identifying them is hard"
+  venue: "The Washington Post,"
+  detail: "27 November"
+  url: https://www.washingtonpost.com/politics/2021/11/27/new-variants-mean-were-only-strong-weakest-national-health-systems-identifying-them-is-hard/
+
+- type: oped
+  year: 2021
+  authors: "Babb, S., and A. Kentikelenis"
+  title: "People have long predicted the collapse of the Washington Consensus. It keeps reappearing under new guises"
+  venue: "The Washington Post,"
+  detail: "16 April"
+  url: https://www.washingtonpost.com/politics/2021/04/16/people-have-long-predicted-collapse-washington-consensus-it-keeps-reappearing-under-new-guises/
+
+- type: oped
+  year: 2020
+  authors: "Kentikelenis, A., and E. Voeten"
+  title: "Biden promises to embrace multilateralism again. World leaders agree"
+  venue: "The Washington Post,"
+  detail: "16 December"
+  url: https://www.washingtonpost.com/politics/2020/12/16/biden-promises-embrace-multilateralism-again-world-leaders-agree/
+
+- type: oped
+  year: 2020
+  authors: "Kentikelenis, A."
+  title: "Against the Gentleman's Agreement"
+  venue: "Progressive International,"
+  detail: "22 June"
+  url: https://progressive.international/blueprint/ff74a0da-6171-4d68-877e-6e7377e33692-alexander-kentikelenis-against-the-gentlemans-agreement/en
+
+- type: oped
+  year: 2019
+  authors: "Kentikelenis, A."
+  title: "The International Monetary Fund will select a new director. Here's what you need to know"
+  venue: "The Washington Post,"
+  detail: "3 September"
+  url: https://www.washingtonpost.com/politics/2019/09/03/international-monetary-fund-will-select-new-director-heres-what-you-need-know/
+
+- type: oped
+  year: 2019
+  authors: "Slobodian, Q., and A. Kentikelenis"
+  title: "Everyone claims they're worried about global finance. But only one side has a plan"
+  venue: "The New York Times,"
+  detail: "25 July"
+  url: https://www.nytimes.com/2019/07/25/opinion/elizabeth-warren-conservative-nationalists-global-finance.html
+
+- type: oped
+  year: 2017
+  authors: "Stubbs, T., and A. Kentikelenis"
+  title: "How international financial institutions undercut human rights and impede public health"
+  venue: "BMC On Health,"
+  detail: "4 December"
+  url: https://blogs.biomedcentral.com/on-health/2017/12/04/how-international-financial-institutions-undercut-human-rights-and-impede-public-health/
+
+- type: oped
+  year: 2017
+  authors: "Stubbs, T., and A. Kentikelenis"
+  title: "The truth behind IMF's claims to promote social protection in low-income countries"
+  venue: "Bretton Woods Observer,"
+  detail: "16 June"
+  url: https://www.brettonwoodsproject.org/2017/06/truth-behind-imfs-claims-promote-social-protection-low-income-countries/
+
+- type: oped
+  year: 2017
+  authors: "Harris, M., and A. Kentikelenis"
+  title: "How a basic income could help build community in an age of individualism"
+  venue: "The Conversation,"
+  detail: "5 April"
+  url: https://theconversation.com/how-a-basic-income-could-help-build-community-in-an-age-of-individualism-74125
+
+- type: oped
+  year: 2016
+  authors: "Kentikelenis, A., T. Stubbs, and L. King"
+  title: "Did the IMF actually ease up on structural adjustment? Here's what the data say"
+  venue: "The Washington Post,"
+  detail: "2 June"
+  url: https://www.washingtonpost.com/news/monkey-cage/wp/2016/06/02/did-the-imf-actually-ease-up-on-demanding-structural-adjustments-heres-what-the-data-say/
+
+- type: oped
+  year: 2016
+  authors: "Kentikelenis, A., T. Stubbs, and L. King"
+  title: "The IMF has not lived up to its own hype on social protection"
+  venue: "The Guardian,"
+  detail: "25 May"
+  url: https://www.theguardian.com/global-development/2016/may/25/the-imf-international-monetary-fund-has-not-lived-up-to-hype-on-social-protection
+
+- type: oped
+  year: 2016
+  authors: "Stubbs, T., A. Kentikelenis, and L. King"
+  title: "The IMF unlocks billions in aid, but from whom?"
+  venue: "INET Blog,"
+  detail: "5 February"
+  url: https://ineteconomics.org/ideas-papers/blog/the-imf-unlocks-billions-in-aid-but-from-whom
+
+- type: oped
+  year: 2015
+  authors: "Kentikelenis, A."
+  title: "Is this the moment Greece's suffering starts to ease?"
+  venue: "New Scientist,"
+  detail: "26 February"
+  url: https://www.newscientist.com/article/2017757-is-this-the-moment-greeces-suffering-starts-to-ease/
+  
+- type: oped
+  year: 2015
+  authors: "Kentikelenis, A., L. King, and M. McKee"
+  title: "The IMF's influence on poor countries' health systems – and Ebola, explained"
+  venue: "The Washington Post,"
+  detail: "6 January"
+  url: https://www.washingtonpost.com/blogs/monkey-cage/wp/2015/01/06/the-imfs-influence-on-poor-countries-health-systems-and-ebola-explained/
+
+- type: oped
+  year: 2014
+  authors: "Kentikelenis, A., T. Stubbs, and L. King"
+  title: "The IMF and Human Development: Little Progress and Worrisome Trends"
+  venue: "INET Blog,"
+  detail: "14 October"
+  url: https://www.ineteconomics.org/perspectives/blog/the-imf-and-human-development-little-progress-and-worrisome-trends

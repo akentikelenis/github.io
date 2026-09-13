@@ -1,0 +1,20 @@
+---
+title: "Policy"
+listing:
+  - id: reports
+    contents: policy.yml
+    include:
+      type: report
+    sort: "year desc"
+    template: assets/pub-listing.ejs
+    filter-ui: false
+    sort-ui: false
+    page-size: 100
+---
+
+<!-- Reports live in policy.yml (type: report). Add pdf:, doi: or cited: fields there. -->
+
+I am keen to facilitate the take-up of my academic research by policymakers. To this end, I collaborate extensively with international organisations and civil society to reach broader policy audiences. Often I do this through talks, conferences, advisory work, and other dissemination activities. But I also do it through authoring policy reports, which generally focus on the same themes as my scholarly work (global health, social protection, the green transition, and the development of policies to meet such objectives). Most of these reports are freely available below; the remainder I am happy to share on request.
+
+::: {#reports}
+:::

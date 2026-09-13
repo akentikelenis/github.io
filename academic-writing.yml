@@ -1,0 +1,1154 @@
+# ------------------------------------------------------------------
+# ACADEMIC WRITING - one entry per publication, newest first.
+# Types:  article - peer-reviewed journal articles
+#         other   - chapters, letters, working papers, other pieces
+#         wip     - work in progress (listed first on the page)
+# Fields: authors/title/venue/detail are displayed verbatim.
+#         cats: [gov, health]   theme filters      fav: true   the emoji tag
+#         doi / url / data / pdf                   -> the buttons
+#         awards / reviewed_in / cited_in / media_in -> one chip line per item
+#            - text: "..."          (put the document code in parentheses)
+#              url: https://...     (link target)
+#              code: XX/123         (only this part of the text becomes the link)
+# PDFs live in: files/academic writing/  and the pdf: line must match the
+# filename exactly. Check with: python3 tools/check_pdfs.py
+# ------------------------------------------------------------------
+
+- type: wip
+  year: 2026
+  authors: Babb, S., and A. Kentikelenis
+  title: The Making of the Washington Consensus
+  cats: [gov]
+
+
+- type: wip
+  year: 2026
+  authors: Carreri, M., and A. Kentikelenis
+  title: Local Fiscal Rules in Comparative Perspective
+  venue: Article in preparation
+  cats: [gov]
+
+
+- type: wip
+  year: 2026
+  authors: Forster, T., A. Kentikelenis, and L. Seabrooke
+  title: 'Board Games: Conflict, Coordination and Collaboration in Global Governance'
+  venue: Article in preparation
+  cats: [gov]
+
+
+- type: wip
+  year: 2026
+  authors: Hofmann, S.C., and A. Kentikelenis
+  title: 'When Resilience Looks like Fragility: Workarounds and the Elasticity of International Cooperation'
+  cats: [gov]
+
+
+- type: wip
+  year: 2026
+  authors: 'Kentikelenis, A., and M. Trubaç'
+  title: 'The EU as a Global Health Actor: Team Europe, Multilateralism and the Trade-offs of Common External Policies'
+  cats: [health, gov]
+
+
+- type: wip
+  year: 2026
+  authors: 'Trubaç, M., A. Kentikelenis, and M. Heinzel'
+  title: Revolving Doors in International Organizations
+  cats: [gov]
+
+
+- type: wip
+  year: 2026
+  authors: 'Kentikelenis, A., and T. Stubbs'
+  title: 'From ‘Macro-Critical’ to Marginal: Climate Issues in IMF Economic Surveillance, 2022–2025'
+  cats: [gov]
+
+
+- type: article
+  year: 2026
+  authors: Kentikelenis, A., and L. Seabrooke
+  title: 'Dual Loyalties in International Organizations: How Politics and Expertise Shape the World Polity'
+  venue: American Sociological Review
+  detail: In press
+  cats: [gov]
+  data: none
+  pdf: none
+
+
+- type: article
+  year: 2025
+  authors: Kentikelenis, A., and T. Stubbs
+  title: 'Progressive Rhetoric, Regressive Reality: The IMF’s Tax Advice to 125 Countries, 2022–2024'
+  venue: Global Policy
+  detail: '16(4): 731–738'
+  cats: [gov, health]
+  doi: 10.1111/1758-5899.70052
+  data: 'https://doi.org/10.7910/DVN/GNYXU1'
+  pdf: files/academic writing/Kentikelenis and Stubbs - 2025 - Progressive Rhetoric, Regressive Reality - The IMF ’s Tax Advice to 125 Countries, 2022–2024.pdf
+
+
+- type: article
+  year: 2025
+  authors: Forster, T., D. Honig, and A. Kentikelenis
+  title: 'Formal Governance Matters: When, How, and Why States Act on the IMF Executive Board'
+  venue: Review of International Political Economy
+  detail: '32(3): 818–846'
+  cats: [gov]
+  fav: true
+  doi: 10.1080/09692290.2024.2441136
+  data: 'https://doi.org/10.7910/DVN/7N7LCH'
+  pdf: files/academic writing/Forster et al. - 2025 - Formal Governance Matters - When, How, and Why States Act on the IMF Executive Board.pdf
+
+
+- type: other
+  year: 2025
+  authors: Kentikelenis, A., and L. Seabrooke
+  title: How the EU and its Member States Exercise Leverage Across Global Health Venues
+  venue: NAVIGATOR Working Papers
+  detail: D6.2
+  cats: [health, gov]
+  url: https://eunav.eu/resource/leverage-across-global-health-venues/
+  pdf: files/academic writing/Kentikelenis and Seabrooke - 2026 - How the EU and its Member States Exercise Leverage Across Global Health Venues.pdf
+
+
+- type: other
+  year: 2025
+  authors: Kentikelenis, A., and L. Seabrooke
+  title: 'The Institutional Landscape of Global Health Governance: The Role of Team Europe'
+  venue: NAVIGATOR Working Papers
+  detail: D6.1
+  cats: [health, gov]
+  url: https://eunav.eu/resource/the-institutional-landscape-of-global-health-governance-the-role-of-team-europe/
+  pdf: files/academic writing/Kentikelenis and Seabrooke - 2025 - The Institutional Landscape of Global Health Governance The Role of Team Europe.pdf
+
+
+- type: article
+  year: 2024
+  authors: Lang, V., L. Wellner, and A. Kentikelenis
+  title: Biased Bureaucrats and the Policies of International Organizations
+  venue: American Journal of Political Science
+  detail: '69(4): 1486–1504'
+  cats: [gov]
+  fav: true
+  doi: 10.1111/ajps.12921
+  data: 'https://doi.org/10.7910/DVN/IPGCTN'
+  pdf: files/academic writing/Lang et al. - 2025 - Biased Bureaucrats and the Policies of International Organizations.pdf
+  awards:
+  - text: Bojanovsky Prize for Best Article, University of Mannheim, 2025
+  - text: Runner-up, Outstanding Article Award, International Collaboration Section, American Political Science Association, 2025
+  cited_in:
+  - text: 'IMF Independent Evaluation Office (2025). Reading the Fund: A Systematic Analysis of IMF Fiscal Advice Using Large Language Models (BP/25-01/05)'
+    url: https://ieo.imf.org/en/-/media/ieo/files/evaluations/completed/12-16-2025-imf-advice-on-fiscal-policy/fp-bp5-fiscal-policy-advice-reading-the-fund.pdf
+    code: BP/25-01/05
+
+
+- type: article
+  year: 2024
+  authors: Nordquist, S.M., D.R.K. Adler, and A. Kentikelenis
+  title: 'The Globalization Backlash Revisited: Evidence from the United States'
+  venue: Global Perspectives
+  detail: '5(1): 125070'
+  cats: [gov]
+  doi: 10.1525/gp.2024.125070
+  data: none
+  pdf: files/academic writing/Nordquist et al. - 2024 - The Globalization Backlash Revisited - Evidence from the United States.pdf
+
+
+- type: article
+  year: 2024
+  authors: Kentikelenis, A., and T. Stubbs
+  title: 'Social Protection and the International Monetary Fund: Promise versus Performance'
+  venue: Globalization & Health
+  detail: '20(41): 1–14'
+  cats: [health, gov]
+  doi: 10.1186/s12992-024-01045-9
+  data: 'https://doi.org/10.7910/DVN/KVVFV1'
+  pdf: files/academic writing/Kentikelenis and Stubbs - 2024 - Social Protection and the International Monetary Fund - Promise versus Performance.pdf
+  cited_in:
+  - text: International Monetary Fund (2025). Social Spending Targets in IMF-Supported Programs in Sub-Saharan Africa (DP 2025/005)
+    url: https://www.elibrary.imf.org/view/journals/087/2025/005/article-A001-en.xml
+    code: DP 2025/005
+  - text: IMF Independent Evaluation Office (2025). IMF Advice on Fiscal Policy — Selected Issues (BP/25-01/04)
+    url: https://ieo.imf.org/en/-/media/ieo/files/evaluations/completed/12-16-2025-imf-advice-on-fiscal-policy/fp-bp4-fiscal-policy-advice-selected-issues.pdf
+    code: BP/25-01/04
+
+
+- type: other
+  year: 2024
+  authors: Bradlow, B., and A. Kentikelenis
+  title: Globalizing Green Industrial Policy through Technology Transfers
+  venue: Nature Sustainability
+  detail: '7: 685–687'
+  cats: [gov]
+  doi: 10.1038/s41893-024-01336-4
+  data: none
+  pdf: files/academic writing/Bradlow and Kentikelenis - 2024 - Globalizing Green Industrial Policy through Technology Transfers.pdf
+
+
+- type: other
+  year: 2024
+  authors: Forster, T., A. Kentikelenis, and T. Stubbs
+  title: Neoliberalism and Health in Global Context
+  venue: Handbook on the Political Economy of Health and Healthcare,
+  detail: ed. D. Primrose, R. Chang and R. Loeppky. Routledge
+  cats: [health]
+  doi: 10.4324/9781003017110-14
+  data: none
+  pdf: files/academic writing/Forster et al. - 2024 - Neoliberalism and Health in Global Context.pdf
+
+
+- type: article
+  year: 2023
+  authors: Kentikelenis, A., L. Seabrooke, and O.J. Sending
+  title: Global Health Expertise in the Shadow of Hegemony
+  venue: Studies in Comparative International Development
+  detail: '58: 347–368'
+  cats: [health, gov]
+  doi: 10.1007/s12116-023-09405-z
+  data: none
+  pdf: files/academic writing/Kentikelenis et al. - 2023 - Global Health Expertise in the Shadow of Hegemony.pdf
+
+
+- type: article
+  year: 2023
+  authors: Kentikelenis, A., A. Ghaffar, M. McKee, L. Dal Zennaro, and D. Stuckler
+  title: 'Global Financing for Health Policy and Systems Research: A Review of Funding Opportunities'
+  venue: Health Policy & Planning
+  detail: '38(3): 409–416'
+  cats: [health]
+  doi: 10.1093/heapol/czac109
+  data: 'https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/heapol/38/3/10.1093_heapol_czac109/2/czac109_supp.zip?Expires=1791417952&Signature=c2EBKWxSKym3o84EuWf9bXLNi\~ba4FIJfQfQsqPQbSl5tVvA1mmNT7XzPs1A-ifb0j-OS7zTZpCkQYlMSIU2gHCibp2CLtrpmsFj\~wJFsIPoeHSan-gsOO9faM5evTMA6fX4gw88\~v6RtYVHpJQUncShZYA4BbI5Nf897kOkKxchY1\~RKexquGO0AXFccD4Rp7CuNsK7rgmDvHH6NpEYgWKf-O26b4lHYB8tF\~Ee1eF5AFKZ\~qSjATbIr9sFgoIW0kX\~Jqf9dbDcSDeEl\~\~bEJttBIhstt6x3xAOLfwfEdjLPfkzCIvK3An6tERKOwP78WM2o1p0g4llNR3lOL7HrQ\_\_&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA'
+  pdf: files/academic writing/Kentikelenis et al. - 2023 - Global Financing for Health Policy and Systems Research - A Review of Funding Opportunities.pdf
+
+
+- type: article
+  year: 2023
+  authors: Toffolutti, V., E. Paglino, A. Kentikelenis, L. Mencarini, and A. Aassve
+  title: Does Bribery Increase Maternal Mortality? Evidence from 135 Sub-Saharan African Regions
+  venue: PLOS Global Public Health
+  detail: '3(12): e0000847'
+  cats: [health]
+  doi: 10.1371/journal.pgph.0000847
+  pdf: files/academic writing/Toffolutti et al. - 2023 - Does bribery increase maternal mortality Evidence from 135 Sub-Saharan African regions.pdf
+
+
+- type: article
+  year: 2023
+  authors: 'Serrano-Alarcón, M., C. Ardito, R. Leombruni, A. Kentikelenis, A. d’Errico, A. Odone, G. Costa, and D. Stuckler'
+  title: 'Health and Labour Market Effects of an Unanticipated Rise in Retirement Age: Evidence from the 2012 Italian Pension Reform'
+  venue: Health Economics
+  detail: '32(12): 2745–2767'
+  cats: [health]
+  doi: 10.1002/hec.4749
+  pdf: files/academic writing/Serrano-Alarcon et al. - 2023 - Health and labor market effects of an unanticipated rise in retirement age.pdf
+
+
+- type: article
+  year: 2023
+  authors: 'Serrano-Alarcón, M., Y. Wang, A. Kentikelenis, M. McKee, and D. Stuckler'
+  title: 'The Far-right and Anti-vaccine Attitudes: Lessons from Spain’s Mass COVID-19 Vaccine Roll-out'
+  venue: European Journal of Public Health
+  detail: '33(2): 215–221'
+  cats: [health]
+  doi: 10.1093/eurpub/ckac173
+  pdf: files/academic writing/Serrano-Alarcon et al. - 2023 - The far-right and anti-vaccine attitudes lessons from Spain’s mass COVID-19 vaccine roll-out.pdf
+
+
+- type: other
+  year: 2023
+  authors: Stubbs, T., A. Kentikelenis, D. Gabor, J. Ghosh, and M. McKee
+  title: The Return of Austerity Imperils Global Health
+  venue: BMJ Global Health
+  detail: '8: e011620'
+  cats: [health]
+  doi: 10.1136/bmjgh-2022-011620
+  data: none
+  pdf: files/academic writing/Stubbs et al. - 2023 - The Return of Austerity Imperils Global Health.pdf
+
+
+- type: article
+  year: 2022
+  authors: Kentikelenis, A., A. Ghaffar, M. McKee, L. Dal Zennaro, and D. Stuckler
+  title: 'Donor Support for Health Systems: Barriers to Financing and Opportunities for Overcoming Them'
+  venue: Globalization & Health
+  detail: '18(106): 1–12'
+  cats: [health]
+  doi: 10.1186/s12992-022-00896-4
+  data: none
+  pdf: files/academic writing/Kentikelenis et al. - 2022 - Donor Support for Health Policy and Systems Research - Barriers to Financing and Opportunities for Overcoming Them.pdf
+
+
+- type: article
+  year: 2022
+  authors: Kentikelenis, A., and L. Seabrooke
+  title: 'Governing and Measuring Health Security: The Global Push for Pandemic Preparedness Indicators'
+  venue: Global Policy
+  detail: '13(4): 571–578'
+  cats: [health, gov]
+  doi: 10.1111/1758-5899.13090
+  data: none
+  pdf: files/academic writing/Kentikelenis and Seabrooke - 2022 - Governing and Measuring Health Security - The Global Push for Pandemic Preparedness Indicators.pdf
+  cited_in:
+  - text: 'World Health Organization (2024). Health System Resilience Indicators: An Integrated Package for Measuring and Monitoring Health System Resilience in Countries'
+    url: https://iris.who.int/bitstream/handle/10665/376809/9789289059596-eng.pdf
+    code: 'Health System Resilience Indicators: An Integrated Package for Measuring and Monitoring Health System Resilience in Countries'
+
+
+- type: article
+  year: 2022
+  authors: Adler, D.R.K., and A. Kentikelenis
+  title: 'Pump Up the Volume: From Covert to Overt Politics in Global Governance'
+  venue: Global Perspectives
+  detail: '3(1): 55675'
+  cats: [gov]
+  doi: 10.1525/gp.2022.55675
+  pdf: files/academic writing/Adler and Kentikelenis - 2022 - Pump Up the Volume From Covert to Overt Politics in Global Governance.pdf
+
+
+- type: other
+  year: 2022
+  authors: Kentikelenis, A., and S. Babb
+  title: 'International Financial Institutions: Forms, Functions and Controversies'
+  venue: The Oxford Handbook of International Political Economy,
+  detail: ed. J. Pevehouse and L. Seabrooke. Oxford University Press
+  cats: [gov]
+  doi: 10.1093/oxfordhb/9780198793519.013.8
+  data: none
+  pdf: files/academic writing/Kentikelenis and Babb - 2022 - International Financial Institutions - Forms, Functions, and Controversies.pdf
+  cited_in:
+  - text: UN General Assembly (2019). Report of the Independent Expert on the effects of foreign debt on the full enjoyment of all human rights (A/74/178)
+    url: https://docs.un.org/en/A/74/178
+    code: A/74/178
+
+
+- type: other
+  year: 2022
+  authors: Forster, T., A. Kentikelenis, and T. Stubbs
+  title: The Politics of the International Monetary Fund
+  venue: Handbook on the Politics of International Development,
+  detail: 'ed. D. Tussie, P. Nemiña and M. Deciancio. Edward Elgar; pp. 376–391'
+  cats: [gov]
+  doi: 10.4337/9781839101915.00034
+  data: none
+  pdf: files/academic writing/Forster et al. - 2022 - The Politics of the International Monetary Fund.pdf
+
+
+- type: article
+  year: 2021
+  authors: Reinsberg, B., A. Kentikelenis, and T. Stubbs
+  title: 'Creating Crony Capitalism: Neoliberal Globalization and the Fueling of Corruption'
+  venue: Socio-Economic Review
+  detail: '19(2): 607–634'
+  cats: [gov]
+  fav: true
+  doi: 10.1093/ser/mwz039
+  data: 'https://doi.org/10.7910/DVN/MFZGIY'
+  pdf: files/academic writing/Reinsberg et al. - 2019 - Creating Crony Capitalism - Neoliberal Globalization and the Fueling of Corruption.pdf
+  awards:
+  - text: Best Article Published in the Socio-Economic Review in 2021
+
+
+- type: article
+  year: 2021
+  authors: Babb, S., and A. Kentikelenis
+  title: 'Markets Everywhere: The Washington Consensus and the Sociology of Global Institutional Change'
+  venue: Annual Review of Sociology
+  detail: '47: 521–541'
+  cats: [gov]
+  doi: 10.1146/annurev-soc-090220-025543
+  data: none
+  pdf: files/academic writing/Babb and Kentikelenis - 2021 - Markets Everywhere - The Washington Consensus and the Sociology of Global Institutional Change.pdf
+  cited_in:
+  - text: United Nations Conference on Trade and Development (2021). Reforming the International Trading System for Recovery, Resilience and Inclusive Development (UNCTAD Research Paper 65, SER.RP/2021/8)
+    url: https://unctad.org/system/files/official-document/ser-rp-2021d8_en.pdf
+    code: SER.RP/2021/8
+
+
+- type: article
+  year: 2021
+  authors: Reinsberg, B., T. Stubbs, and A. Kentikelenis
+  title: 'Compliance, Defiance, and the Dependency Trap: IMF Program Interruptions and their Impact on Capital Markets'
+  venue: Regulation & Governance
+  detail: '16(4): 1022–1041'
+  cats: [gov]
+  doi: 10.1111/rego.12422
+  data: 'https://doi.org/10.7910/DVN/BYDWI7'
+  pdf: files/academic writing/Reinsberg et al. - 2022 - Compliance, Defiance, and the Dependency Trap - International Monetary Fund Program Interruptions and Their Impact on Capital Markets.pdf
+
+
+- type: article
+  year: 2021
+  authors: Stubbs, T., A. Kentikelenis, R. Ray, and K.P. Gallagher
+  title: 'Poverty, Inequality, and the International Monetary Fund: How Austerity Hurts the Poor and Widens Inequality'
+  venue: Journal of Globalization and Development
+  detail: '13(1): 61–89'
+  cats: [health, gov]
+  doi: 10.1515/jgd-2021-0018
+  data: none
+  pdf: files/academic writing/Stubbs et al. - 2021 - Poverty, Inequality, and the International Monetary Fund - How Austerity Hurts the Poor and Widens Inequality.pdf
+  cited_in:
+  - text: 'IMF Independent Evaluation Office (2025). The IMF''s Fiscal Policy Advice to Emerging Market and Middle-Income Economies (BP/25-01/02)'
+    url: https://ieo.imf.org/en/-/media/ieo/files/evaluations/completed/12-16-2025-imf-advice-on-fiscal-policy/fp-bp2-fiscal-policy-advice-to-emmies.pdf
+    code: BP/25-01/02
+
+
+- type: article
+  year: 2021
+  authors: Reinsberg, B., T. Stubbs, and A. Kentikelenis
+  title: Unimplementable by Design? Understanding Non-compliance with IMF Policy Conditionality
+  venue: Governance
+  detail: '35(3): 689–715'
+  cats: [gov]
+  doi: 10.1111/gove.12605
+  data: 'https://doi.org/10.7910/DVN/QTFOGF'
+  pdf: files/academic writing/Reinsberg et al. - 2022 - Unimplementable by Design - Understanding (Non-)Compliance with International Monetary Fund Policy Conditionality.pdf
+
+
+- type: article
+  year: 2021
+  authors: Kentikelenis, A., and T. Stubbs
+  title: 'Austerity Redux: The Coming Wave of Budget Cuts and the Future of Global Public Health'
+  venue: Global Policy
+  detail: '13(1): 5–17'
+  cats: [health]
+  doi: 10.1111/1758-5899.13028
+  data: 'https://doi.org/10.7910/DVN/M7DIJJ'
+  pdf: files/academic writing/Kentikelenis and Stubbs - 2022 - Austerity Redux - The Post-Pandemic Wave of Budget Cuts and the Future of Global Public Health.pdf
+
+
+- type: article
+  year: 2021
+  authors: 'Serrano-Alarcón, M., A. Kentikelenis, M. McKee, and D. Stuckler'
+  title: 'Impact of COVID-19 Lockdowns on Mental Health: Evidence from a Quasi-natural Experiment in England and Scotland'
+  venue: Health Economics
+  detail: '31(2): 284–296'
+  cats: [health]
+  doi: 10.1002/hec.4453
+  data: none
+  pdf: 'files/academic writing/Serrano-Alarcon et al. - 2021 - Impact of COVID-19 Lockdowns on Mental Health - Evidence from a Quasi-Natural Experiment in England and Scotland.pdf'
+  awards:
+  - text: Best Health Economics Article, Spanish Health Economics Association (AES), 2022
+
+
+- type: article
+  year: 2021
+  authors: Kentikelenis, A., and L. Seabrooke
+  title: 'Organizing Knowledge to Prevent Global Health Crises: A Comparative Analysis of Pandemic Preparedness Indicators'
+  venue: BMJ Global Health
+  detail: '6(8): 1–12'
+  cats: [health, gov]
+  fav: true
+  doi: 10.1136/bmjgh-2021-006864
+  data: none
+  pdf: files/academic writing/Kentikelenis and Seabrooke - 2021 - Organising Knowledge to Prevent Global Health Crises - A Comparative Analysis of Pandemic Preparedness Indicators.pdf
+
+
+- type: other
+  year: 2021
+  authors: Stuckler, D., M. McKee, and A. Kentikelenis
+  title: Are We Making the Same Mistakes in Fighting COVID-19 as in Past Pandemics? Lessons from HIV Show the Urgent Need to Invest in HPSR
+  venue: Public Health Research & Practice
+  detail: '31(4): e3142116'
+  cats: [health]
+  doi: 10.17061/phrp3142116
+  data: none
+  pdf: files/academic writing/Stuckler et al. - 2021 - Are We Making the Same Mistakes in Fighting COVID-19 as in Past Pandemics.pdf
+
+
+- type: other
+  year: 2021
+  authors: 'Serrano-Alarcón, M., A. Kentikelenis, and D. Stuckler'
+  title: 'How to Protect People in Response to COVID-19 Economic Downturns: Insights from Past Economic Crises'
+  venue: Scandinavian Journal of Public Health
+  detail: '50(1): 4–5'
+  cats: [health]
+  doi: 10.1177/14034948211051912
+  data: none
+  pdf: 'files/academic writing/Serrano-Alarcon et al. - 2021 - How to Protect People in Response to COVID-19 Economic Downturns - Insights from Past Economic Crises.pdf'
+
+
+- type: article
+  year: 2020
+  authors: Shriwise, A., A. Kentikelenis, and D. Stuckler
+  title: 'Universal Social Protection: Is It Just Talk?'
+  venue: Sociology of Development
+  detail: '6(1): 116–144'
+  cats: [health]
+  doi: 10.1525/sod.2020.6.1.116
+  data: none
+  pdf: files/academic writing/Shriwise et al. - 2020 - Universal Social Protection Is It Just Talk.pdf
+  cited_in:
+  - text: 'UN Human Rights Council (2020). Report of Special Rapporteur on extreme poverty and human rights: The parlous state of poverty eradication (A/HRC/44/40)'
+    url: https://docs.un.org/en/A/HRC/44/40
+    code: A/HRC/44/40
+
+
+- type: article
+  year: 2020
+  authors: Stubbs, T., W. Kring, C. Laskaridis, A. Kentikelenis, and K. Gallagher
+  title: Whatever it Takes? The Global Financial Safety Net, Covid-19, and Developing Countries
+  venue: World Development
+  detail: '137: 105171'
+  cats: [gov]
+  doi: 10.1016/j.worlddev.2020.105171
+  data: none
+  pdf: files/academic writing/Stubbs et al. - 2021 - Whatever It Takes - The Global Financial Safety Net, Covid-19, and Developing Countries.pdf
+  cited_in:
+  - text: 'United Nations Conference on Trade and Development (2021). World Investment Report 2021: Investing in Sustainable Recovery'
+    url: https://unctad.org/publication/world-investment-report-2021
+    code: 'World Investment Report 2021: Investing in Sustainable Recovery'
+
+
+- type: article
+  year: 2020
+  authors: Kentikelenis, A., and E. Voeten
+  title: 'Legitimacy Challenges to the Liberal World Order: Evidence from United Nations Speeches, 1970–2018'
+  venue: Review of International Organizations
+  detail: '16: 721–754'
+  cats: [gov]
+  fav: true
+  doi: 10.1007/s11558-020-09404-y
+  data: 'https://link.springer.com/article/10.1007/s11558-020-09404-y#Sec10'
+  pdf: files/academic writing/Kentikelenis and Voeten - 2021 - Legitimacy Challenges to the Liberal World Order - Evidence from United Nations Speeches, 1970–2018.pdf
+
+
+- type: article
+  year: 2020
+  authors: Reinsberg, B., A. Kentikelenis, and T. Stubbs
+  title: 'Taxing the People, Not Trade: The International Monetary Fund and the Structure of Taxation in Developing Countries'
+  venue: Studies in Comparative International Development
+  detail: '55(3): 278–304'
+  cats: [gov]
+  doi: 10.1007/s12116-020-09307-4
+  data: 'https://doi.org/10.7910/DVN/ULG3Q9'
+  pdf: files/academic writing/Reinsberg et al. - 2020 - Taxing the People, Not Trade - The International Monetary Fund and the Structure of Taxation in Developing Countries.pdf
+
+
+- type: other
+  year: 2020
+  authors: Kentikelenis, A., D. Gabor, I. Ortiz, T. Stubbs, M. McKee, and D. Stuckler
+  title: 'Softening the Blow of the Pandemic: Will the IMF and World Bank Make Things Worse?'
+  venue: The Lancet Global Health
+  detail: '8: 758–759'
+  cats: [health, gov]
+  doi: 10.1016/S2214-109X(20)30135-2
+  data: none
+  pdf: files/academic writing/Kentikelenis et al. - 2020 - Softening the Blow of the Pandemic - Will the International Monetary Fund and World Bank Make Things Worse.pdf
+
+
+- type: other
+  year: 2020
+  authors: Bozorgmehr, K., V. Saint, A. Kaasch, D. Stuckler, and A. Kentikelenis
+  title: COVID and the Convergence of Three Crises in Europe
+  venue: The Lancet Public Health
+  detail: '5: 247–248'
+  cats: [health]
+  doi: 10.1016/S2468-2667(20)30078-5
+  data: none
+  pdf: files/academic writing/Bozorgmehr et al. - 2020 - COVID and the Convergence of Three Crises in Europe.pdf
+
+
+- type: article
+  year: 2019
+  authors: Kentikelenis, A., and S. Babb
+  title: 'The Making of Neoliberal Globalization: Norm Substitution and the Politics of Clandestine Institutional Change'
+  venue: American Journal of Sociology
+  detail: '124(6): 1720–1762'
+  cats: [gov]
+  fav: true
+  doi: 10.1086/702900
+  data: none
+  pdf: files/academic writing/Kentikelenis and Babb - 2019 - The Making of Neoliberal Globalization - Norm Substitution and the Politics of Clandestine Institutional Change.pdf
+  awards:
+  - text: Charles Tilly Award for Best Article in Comparative-Historical Sociology, American Sociological Association, 2020
+  - text: Best Article in Global and Transnational Sociology, American Sociological Association, 2020
+
+
+- type: article
+  year: 2019
+  authors: Reinsberg, B., A. Kentikelenis, T. Stubbs, and L. King
+  title: 'The World System and the Hollowing-out of State Capacity in the Developing World: How Structural Adjustment Programs Affect Bureaucratic Quality'
+  venue: American Journal of Sociology
+  detail: '124(4): 1222–1257'
+  cats: [gov]
+  fav: true
+  doi: 10.1086/701703
+  data: 'https://doi.org/10.7910/DVN/SCQTJX'
+  pdf: files/academic writing/Reinsberg et al. - 2019 - The World System and the Hollowing Out of State Capacity - How Structural Adjustment Programs Affect Bureaucratic Quality in Developing Countries.pdf
+
+
+- type: article
+  year: 2019
+  authors: Reinsberg, B., T. Stubbs, A. Kentikelenis, and L. King
+  title: The Political Economy of Labour Market Deregulation during IMF Interventions
+  venue: International Interactions
+  detail: '45(3): 532–559'
+  cats: [gov]
+  doi: 10.1080/03050629.2019.1582531
+  data: 'https://doi.org/10.7910/DVN/DDBKCD'
+  pdf: files/academic writing/Reinsberg et al. - 2019 - The Political Economy of Labor Market Deregulation during IMF Interventions.pdf
+
+
+- type: article
+  year: 2019
+  authors: Daoud, A., B. Reinsberg, A. Kentikelenis, T. Stubbs, and L. King
+  title: 'The International Monetary Fund’s Interventions in Food and Agriculture: An Analysis of Loans and Conditions'
+  venue: Food Policy
+  detail: '83: 204–218'
+  cats: [gov, health]
+  doi: 10.1016/j.foodpol.2019.01.005
+  data: none
+  pdf: files/academic writing/Daoud et al. - 2019 - The International Monetary Fund’s Interventions in Food and Agriculture - An Analysis of Loans and Conditions.pdf
+
+
+- type: article
+  year: 2019
+  authors: Forster, T., A. Kentikelenis, T. Stubbs, B. Reinsberg, and L. King
+  title: 'How Structural Adjustment Programs Affect Inequality: A Disaggregated Analysis of IMF Conditionality, 1980–2014'
+  venue: Social Science Research
+  detail: '80: 83–113'
+  cats: [health, gov]
+  doi: 10.1016/j.ssresearch.2019.01.001
+  data: none
+  pdf: files/academic writing/Forster et al. - 2019 - How Structural Adjustment Programs Affect Inequality - A Disaggregated Analysis of IMF Conditionality, 1980–2014.pdf
+
+
+- type: article
+  year: 2019
+  authors: Reinsberg, B., A. Kentikelenis, T. Stubbs, and L. King
+  title: 'Bad Governance: How Privatization Increases Corruption in the Developing World'
+  venue: Regulation & Governance
+  detail: '14(4): 689–717'
+  cats: [gov]
+  doi: 10.1111/rego.12265
+  data: 'https://doi.org/10.7910/DVN/O1BYGX'
+  pdf: files/academic writing/Reinsberg et al. - 2020 - Bad Governance - How Privatization Increases Corruption in the Developing World.pdf
+
+
+- type: article
+  year: 2019
+  authors: Forster, T., A. Kentikelenis, T. Stubbs, and L. King
+  title: 'Globalization and Health Equity: The Impact of Structural Adjustment Programs in Developing Countries'
+  venue: Social Science & Medicine
+  detail: '267: 112496'
+  cats: [health]
+  doi: 10.1016/j.socscimed.2019.112496
+  data: none
+  pdf: files/academic writing/Forster et al. - 2020 - Globalization and Health Equity - The Impact of Structural Adjustment Programs on Developing Countries.pdf
+  cited_in:
+  - text: International Monetary Fund (2024). Effects of IMF-Supported Programs on Gender Inequality (WP/24/247)
+    url: https://www.elibrary.imf.org/view/journals/001/2024/247/article-A001-en.xml
+    code: WP/24/247
+
+
+- type: article
+  year: 2019
+  authors: Kentikelenis, A., and C. Rochford
+  title: 'Power Asymmetries in Global Governance for Health: A Conceptual Framework for Analysing the Political-Economic Determinants of Health Inequities'
+  venue: Globalization & Health
+  detail: '15(S1): 70'
+  cats: [health, gov]
+  fav: true
+  doi: 10.1186/s12992-019-0516-4
+  data: none
+  pdf: files/academic writing/Kentikelenis and Rochford - 2019 - Power Asymmetries in Global Governance for Health - A Conceptual Framework for Analyzing the Political-Economic Determinants of Health Inequities.pdf
+
+
+- type: other
+  year: 2019
+  authors: Forster, T., and A. Kentikelenis
+  title: 'Austerity and Health in Europe: Disentangling the Causal Links'
+  venue: European Journal of Public Health
+  detail: '29(5): 808–809'
+  cats: [health]
+  doi: 10.1093/eurpub/cky249
+  data: none
+  pdf: files/academic writing/Forster and Kentikelenis - 2019 - Austerity and Health in Europe - Disentangling the Causal Links.pdf
+
+
+- type: article
+  year: 2019
+  authors: Piselli, P., M. Samuilova, K. Bozorgmehr, E. Girardi, R. Petrova-Benedict, A. Kentikelenis, et al.
+  title: 'Infectious-Disease Screening and Vaccination for Refugees and Asylum Seekers Entering Europe in 2015–16: A Scoping Study of Six European Union Countries'
+  venue: Journal of Refugee Studies
+  detail: '32(S1): i92–i104'
+  cats: [health]
+  doi: 10.1093/jrs/fez042
+  data: none
+  pdf: files/academic writing/Piselli et al. - 2019 - Infectious-Disease Screening and Vaccination for Refugees and Asylum Seekers Entering Europe in 2015–16 - A Scoping Study of Six European Union Countries.pdf
+
+
+- type: article
+  year: 2018
+  authors: Bozorgmehr, K., M. Samuilova, R. Petrova-Benedict, E. Girardi, P. Piselli, and A. Kentikelenis
+  title: 'Infectious Disease Health Services for Refugees and Asylum Seekers During a Time of Crisis: A Scoping Study of Six European Union Countries'
+  venue: Health Policy
+  detail: '123(9): 882–887'
+  cats: [health]
+  doi: 10.1016/j.healthpol.2018.04.003
+  data: none
+  pdf: files/academic writing/Bozorgmehr et al. - 2018 - Infectious Disease Health Services for Refugees and Asylum Seekers During a Time of Crisis - A Scoping Study of Six European Union Countries.pdf
+
+
+- type: article
+  year: 2018
+  authors: Stubbs, T., B. Reinsberg, A. Kentikelenis, and L. King
+  title: 'How to Evaluate the Effects of IMF Conditionality: An Extension of Quantitative Approaches and an Empirical Application to Government Education Spending'
+  venue: Review of International Organizations
+  detail: '15(1): 29–73'
+  cats: [gov, health]
+  doi: 10.1007/s11558-018-9332-5
+  data: 'https://doi.org/10.7910/DVN/YSZ79K'
+  pdf: files/academic writing/Stubbs et al. - 2018 - How to Evaluate the Effects of IMF Conditionality - An Extension of Quantitative Approaches and an Empirical Application to Public Education Spending.pdf
+  cited_in:
+  - text: International Monetary Fund (2025). Social Spending Targets in IMF-Supported Programs in Sub-Saharan Africa (DP 2025/005)
+    url: https://www.elibrary.imf.org/view/journals/087/2025/005/article-A001-en.xml
+    code: DP 2025/005
+
+
+- type: article
+  year: 2018
+  authors: Kentikelenis, A.
+  title: 'The Social Aftermath of Economic Disaster: Karl Polanyi, Countermovements in Action, and the Greek Crisis'
+  venue: Socio-Economic Review
+  detail: '16(1): 39–59'
+  cats: [health]
+  fav: true
+  doi: 10.1093/ser/mwx031
+  data: none
+  pdf: files/academic writing/Kentikelenis - 2018 - The Social Aftermath of Economic Disaster - Karl Polanyi, Countermovements in Action, and the Greek Crisis.pdf
+  awards:
+  - text: Early-career workshop award, SASE, 2016
+  - text: Honorable mention, Political Economy and Welfare Paper Competition, Council for European Studies, 2013
+
+
+- type: other
+  year: 2018
+  authors: Stubbs, T., and A. Kentikelenis
+  title: 'Conditionality and Sovereign Debt: An Overview of Human Rights Implications'
+  venue: Sovereign Debt and International Human Rights
+  detail: ', ed. I. Bantekas and C. Lumina. Oxford University Press; pp. 359–380'
+  cats: [gov]
+  doi: 10.1093/oso/9780198810445.003.0020
+  data: none
+  pdf: files/academic writing/Stubbs and Kentikelenis - 2018 - Conditionality and Sovereign Debt - An Overview of Human Rights Implications.pdf
+  cited_in:
+  - text: UN General Assembly (2019). Report of the Independent Expert on the effects of foreign debt on the full enjoyment of all human rights (A/74/178)
+    url: https://docs.un.org/en/A/74/178
+    code: A/74/178
+
+
+- type: other
+  year: 2018
+  authors: Babb, S., and A. Kentikelenis
+  title: International Financial Institutions as Agents of Neoliberalism
+  venue: The SAGE Handbook of Neoliberalism,
+  detail: 'ed. D. Cahill, M. Cooper, M. Konings and D. Primrose. SAGE; pp. 16–27'
+  cats: [gov]
+  doi: 10.4135/9781526416001.n3
+  data: none
+  pdf: files/academic writing/Babb and Kentikelenis - 2018 - International Financial Institutions as Agents of Neoliberalism.pdf
+  cited_in:
+  - text: 'UN Human Rights Council (2018). Report of Special Rapporteur on extreme poverty and human rights: The role of the IMF in relation to social protection (A/HRC/38/33)'
+    url: https://docs.un.org/en/A/HRC/38/33
+    code: A/HRC/38/33
+
+
+- type: other
+  year: 2018
+  authors: Kentikelenis, A.
+  title: 'Intersecting Crises: Migration, the Economy and the Right to Health in Europe'
+  venue: European Journal of Public Health
+  detail: '28(S5): 61–62'
+  cats: [health]
+  doi: 10.1093/eurpub/cky224
+  data: none
+  pdf: files/academic writing/Kentikelenis - 2018 - Intersecting Crises - Migration, the Economy and the Right to Health in Europe.pdf
+
+
+- type: article
+  year: 2017
+  authors: Kentikelenis, A., and L. Seabrooke
+  title: 'The Politics of World Polity: Script-writing in International Organizations'
+  venue: American Sociological Review
+  detail: '82(5): 1065–1092'
+  cats: [gov]
+  fav: true
+  doi: 10.1177/0003122417728241
+  data: none
+  pdf: files/academic writing/Kentikelenis and Seabrooke - 2017 - The Politics of World Polity - Script-Writing in International Organizations.pdf
+  cited_in:
+  - text: 'UN Human Rights Council (2018). Report of Special Rapporteur on extreme poverty and human rights: The role of the IMF in relation to social protection (A/HRC/38/33)'
+    url: https://docs.un.org/en/A/HRC/38/33
+    code: A/HRC/38/33
+
+
+- type: article
+  year: 2017
+  authors: Kentikelenis, A.
+  title: 'Structural Adjustment and Health: A Conceptual Framework and Evidence on Pathways'
+  venue: Social Science & Medicine
+  detail: '187: 296–305'
+  cats: [health]
+  doi: 10.1016/j.socscimed.2017.02.021
+  data: none
+  pdf: files/academic writing/Kentikelenis - 2017 - Structural Adjustment and Health - A Conceptual Framework and Evidence on Pathways.pdf
+  cited_in:
+  - text: WHO Regional Office for Europe (2019). Policy Coherence as a Driver of Health Equity
+    url: https://www.who.int/europe/publications/i/item/9789289054119
+    code: Policy Coherence as a Driver of Health Equity
+  - text: 'European Observatory on Health Systems and Policies (2024). Implementing the Primary Health Care Approach: A Primer'
+    url: https://eurohealthobservatory.who.int/publications/i/implementing-the-primary-health-care-approach-a-primer
+    code: 'Implementing the Primary Health Care Approach: A Primer'
+
+
+- type: article
+  year: 2017
+  authors: Stubbs, T., and A. Kentikelenis
+  title: 'International Financial Institutions and Human Rights: Implications for Public Health'
+  venue: Public Health Reviews
+  detail: '38(27): 1–17'
+  cats: [health, gov]
+  doi: 10.1186/s40985-017-0074-3
+  data: none
+  pdf: files/academic writing/Stubbs and Kentikelenis - 2017 - International Financial Institutions and Human Rights - Implications for Public Health.pdf
+
+
+- type: article
+  year: 2017
+  authors: Stubbs, T., and A. Kentikelenis
+  title: 'Targeted Social Safeguards in the Age of Universal Social Protection: The IMF and Health Systems of Low-Income Countries'
+  venue: Critical Public Health
+  detail: '28(2): 132–139'
+  cats: [health]
+  doi: 10.1080/09581596.2017.1340589
+  data: none
+  pdf: files/academic writing/Stubbs and Kentikelenis - 2018 - Targeted Social Safeguards in the Age of Universal Social Protection - The IMF and Health Systems of Low-Income Countries.pdf
+  cited_in:
+  - text: UN General Assembly (2019). Report of the Independent Expert on the effects of foreign debt on the full enjoyment of all human rights (A/74/178)
+    url: https://docs.un.org/en/A/74/178
+    code: A/74/178
+  - text: International Monetary Fund (2019). A Strategy for IMF Engagement on Social Spending — Background Papers (Policy Paper 2019/017)
+    url: https://www.imf.org/en/publications/policy-papers/issues/2019/06/10/a-strategy-for-imf-engagement-on-social-spending-background-papers-46976
+    code: Policy Paper 2019/017
+
+
+- type: article
+  year: 2017
+  authors: Stubbs, T., A. Kentikelenis, M. McKee, D. Stuckler, and L. King
+  title: 'The Impact of IMF Conditionality on Government Health Expenditure: A Cross-national Analysis of 16 West African Nations'
+  venue: Social Science & Medicine
+  detail: '174: 220–227'
+  cats: [health]
+  doi: 10.1016/j.socscimed.2016.12.016
+  data: 'https://doi.org/10.7910/DVN/WBAKNS'
+  pdf: files/academic writing/Stubbs et al. - 2017 - The Impact of IMF Conditionality on Government Health Expenditure - A Cross-National Analysis of 16 West African Nations.pdf
+  cited_in:
+  - text: IMF Independent Evaluation Office (2017). External Perspectives of the IMF and Social Protection (BD/17-01/02)
+    url: https://ieo.imf.org/en/-/media/ieo/files/evaluations/completed/07-24-2017-the-imf-and-social-protection/sp-bd2-external-perspectives-of-the-imf-and-social-protection-web.pdf
+    code: BD/17-01/02
+  - text: International Monetary Fund (2018). Expenditure Conditionality in IMF-Supported Programs (WP/18/255)
+    url: https://www.imf.org/en/publications/wp/issues/2018/12/07/expenditure-conditionality-in-imf-supported-programs-46448
+    code: WP/18/255
+  - text: International Monetary Fund (2019). A Strategy for IMF Engagement on Social Spending — Background Papers (Policy Paper 2019/017)
+    url: https://www.imf.org/en/publications/policy-papers/issues/2019/06/10/a-strategy-for-imf-engagement-on-social-spending-background-papers-46976
+    code: Policy Paper 2019/017
+  - text: World Health Organization (2021). Health Labour Market Analysis Guidebook
+    url: https://www.who.int/publications/i/item/9789240035546
+    code: Health Labour Market Analysis Guidebook
+  - text: International Monetary Fund (2023). IMF Engagement on Health Spending Issues in Surveillance and Program Work (TNM 2023/008)
+    url: https://www.elibrary.imf.org/view/journals/005/2023/008/article-A001-en.xml
+    code: TNM 2023/008
+  - text: International Monetary Fund (2025). Social Spending Targets in IMF-Supported Programs in Sub-Saharan Africa (DP 2025/005)
+    url: https://www.elibrary.imf.org/view/journals/087/2025/005/article-A001-en.xml
+    code: DP 2025/005
+
+
+- type: article
+  year: 2017
+  authors: Daoud, A., E. Nosrati, B. Reinsberg, A. Kentikelenis, T. Stubbs, and L. King
+  title: Impact of International Monetary Fund Programs on Child Health
+  venue: Proceedings of the National Academy of Sciences
+  detail: '114(25): 6492–6497'
+  cats: [health]
+  doi: 10.1073/pnas.1617353114
+  data: none
+  pdf: files/academic writing/Daoud et al. - 2017 - Impact of International Monetary Fund Programs on Child Health.pdf
+
+
+- type: article
+  year: 2017
+  authors: Thompson, M., A. Kentikelenis, and T. Stubbs
+  title: 'Structural Adjustment Programmes Adversely Affect Vulnerable Populations: A Systematic-narrative Review of their Effect on Child and Maternal Health'
+  venue: Public Health Reviews
+  detail: '38(13): 1–18'
+  cats: [health]
+  doi: 10.1186/s40985-017-0059-2
+  data: none
+  pdf: files/academic writing/Thomson et al. - 2017 - Structural Adjustment Programmes Adversely Affect Vulnerable Populations - A Systematic-Narrative Review of Their Effect on Child and Maternal Health.pdf
+
+
+- type: article
+  year: 2016
+  authors: Stubbs, T., A. Kentikelenis, and L. King
+  title: Catalyzing Aid? The IMF and Donor Behavior in Aid Allocation
+  venue: World Development
+  detail: '78: 511–528'
+  cats: [gov]
+  doi: 10.1016/j.worlddev.2015.10.010
+  data: 'https://doi.org/10.7910/DVN/TE8TXZ'
+  pdf: files/academic writing/Stubbs et al. - 2016 - Catalyzing Aid - The IMF and Donor Behavior in Aid Allocation.pdf
+  cited_in:
+  - text: International Monetary Fund (2024). The Catalytic Impact of IMF Lending on Official Development Assistance (WP/24/134)
+    url: https://www.imf.org/en/publications/wp/issues/2024/06/28/the-catalytic-impact-of-imf-lending-on-official-development-assistance-550957
+    code: WP/24/134
+  - text: International Monetary Fund (2026). The Catalytic Impact of Resilience and Sustainability Facility Arrangements (WP/26/38)
+    url: https://www.imf.org/-/media/files/publications/wp/2026/english/wpiea2026038-source-pdf.pdf
+    code: WP/26/38
+  - text: 'International Monetary Fund (2026). The Macro-Fiscal Impacts of Post-Disaster IMF Financing: Evidence from a Synthetic Control Approach (WP/26/91)'
+    url: https://www.elibrary.imf.org/view/journals/001/2026/091/article-A001-en.xml
+    code: WP/26/91
+
+
+- type: article
+  year: 2016
+  authors: Kentikelenis, A., T. Stubbs, and L. King
+  title: IMF Conditionality and Development Policy Space, 1985–2014
+  venue: Review of International Political Economy
+  detail: '23(4): 543–582'
+  cats: [gov]
+  fav: true
+  doi: 10.1080/09692290.2016.1174953
+  data: none
+  pdf: files/academic writing/Kentikelenis et al. - 2016 - IMF Conditionality and Development Policy Space, 1985–2014.pdf
+  cited_in:
+  - text: IMF Independent Evaluation Office (2017). The IMF and Social Protection — Evaluation Report
+    url: https://ieo.imf.org/en/-/media/ieo/files/evaluations/completed/07-24-2017-the-imf-and-social-protection/sp-2017evalreport.pdf
+    code: Evaluation Report
+  - text: IMF Independent Evaluation Office (2018). Structural Conditionality in IMF-Supported Programs — Evaluation Update
+    url: https://ieo.imf.org/en/-/media/ieo/files/evaluations/updates/05-15-2018-structural-conditionality-in-imf-supported-programs-evaluation-update/structural-conditionality-in-imf-supported-programs-evaluation-update-web.pdf
+    code: Evaluation Update
+  - text: International Monetary Fund (2018). Expenditure Conditionality in IMF-Supported Programs (WP/18/255)
+    url: https://www.imf.org/en/publications/wp/issues/2018/12/07/expenditure-conditionality-in-imf-supported-programs-46448
+    code: WP/18/255
+  - text: UN General Assembly (2019). Report of the Independent Expert on the effects of foreign debt on the full enjoyment of all human rights (A/74/178)
+    url: https://docs.un.org/en/A/74/178
+    code: A/74/178
+  - text: 'United Nations Conference on Trade and Development (2020). Trade and Development Report 2020: From Global Pandemic to Prosperity for All'
+    url: https://unctad.org/publication/trade-and-development-report-2020
+    code: 'Trade and Development Report 2020: From Global Pandemic to Prosperity for All'
+  - text: IMF Independent Evaluation Office (2021). Fiscal Adjustment and Growth in IMF-Supported Programs (BP/21-01/03)
+    url: https://ieo.imf.org/-/media/IEO/Files/evaluations/completed/09-09-2021-growth-and-adjustment-in-imf-supported-programs/adg-bp03-growth-fiscal-adjustment-in-imfsupported-programs.ashx
+    code: BP/21-01/03
+  - text: IMF Independent Evaluation Office (2021). Structural Conditions, Structural Reforms and Growth in IMF-Supported Programs (BP/21-01/04)
+    url: https://ieo.imf.org/en/-/media/ieo/files/evaluations/completed/09-09-2021-growth-and-adjustment-in-imf-supported-programs/adg-bp04-growth-structural-conditions-structural-reforms-in-imf-supported-programs.pdf
+    code: BP/21-01/04
+  - text: 'International Monetary Fund (2022). Policy Space Index: Short-Term Response to a Catastrophic Event (WP/22/123)'
+    url: https://www.imf.org/en/publications/wp/issues/2022/06/17/policy-space-index-short-term-response-to-a-catastrophic-event-519814
+    code: WP/22/123
+  - text: International Monetary Fund (2022). Do IMF Programs Stimulate Private Sector Investment? (WP/22/157)
+    url: https://www.elibrary.imf.org/view/journals/001/2022/157/article-A001-en.xml
+    code: WP/22/157
+  - text: International Monetary Fund (2024). Determinants of Zombie Banks in Emerging Markets and Developing Economies (WP/24/036)
+    url: https://www.imf.org/en/publications/wp/issues/2024/02/23/determinants-of-zombie-banks-in-emerging-markets-and-developing-economies-545110
+    code: WP/24/036
+
+
+- type: article
+  year: 2016
+  authors: Kentikelenis, A., and A. Shriwise
+  title: International Organizations and Migrant Health in Europe
+  venue: Public Health Reviews
+  detail: '37(19): 1–20'
+  cats: [health]
+  doi: 10.1186/s40985-016-0033-4
+  data: none
+  pdf: files/academic writing/Kentikelenis and Shriwise - 2016 - International Organizations and Migrant Health in Europe.pdf
+
+
+- type: other
+  year: 2016
+  authors: Karanikolos, M., and A. Kentikelenis
+  title: Health Inequalities after Austerity in Greece
+  venue: International Journal for Equity in Health
+  detail: '15(1): 1–3'
+  cats: [health]
+  doi: 10.1186/s12939-016-0374-0
+  data: none
+  pdf: files/academic writing/Karanikolos and Kentikelenis - 2016 - Health Inequalities after Austerity in Greece.pdf
+  cited_in:
+  - text: 'European Observatory on Health Systems and Policies (2017). Greece: Health System Review (HiT 19(5))'
+    url: https://iris.who.int/bitstream/handle/10665/330204/HiT-19-5-2017-eng.pdf
+    code: HiT 19(5)
+
+
+- type: article
+  year: 2015
+  authors: Kentikelenis, A., T. Stubbs, and L. King
+  title: 'Structural Adjustment and Public Spending on Health: Evidence from IMF Programs in Low-Income Countries'
+  venue: Social Science & Medicine
+  detail: '126: 169–176'
+  cats: [health]
+  doi: 10.1016/j.socscimed.2014.12.027
+  data: none
+  pdf: files/academic writing/Kentikelenis et al. - 2015 - Structural Adjustment and Public Spending on Health - Evidence from IMF Programs in Low-Income Countries.pdf
+  cited_in:
+  - text: IMF Independent Evaluation Office (2017). External Perspectives of the IMF and Social Protection (BD/17-01/02)
+    url: https://ieo.imf.org/en/-/media/ieo/files/evaluations/completed/07-24-2017-the-imf-and-social-protection/sp-bd2-external-perspectives-of-the-imf-and-social-protection-web.pdf
+    code: BD/17-01/02
+  - text: International Monetary Fund (2018). Expenditure Conditionality in IMF-Supported Programs (WP/18/255)
+    url: https://www.imf.org/en/publications/wp/issues/2018/12/07/expenditure-conditionality-in-imf-supported-programs-46448
+    code: WP/18/255
+  - text: World Health Organization (2021). Health Labour Market Analysis Guidebook
+    url: https://www.who.int/publications/i/item/9789240035546
+    code: Health Labour Market Analysis Guidebook
+
+
+- type: article
+  year: 2015
+  authors: Kentikelenis, A., M. Karanikolos, G. Williams, P. Mladovsky, L. King, A. Pharris, J.E. Suk, A. Hatzakis, M. McKee, T. Noori, and D. Stuckler
+  title: How do Economic Crises Affect Migrant Health? A Systematic-narrative Review
+  venue: European Journal of Public Health
+  detail: '25(6): 937–944'
+  cats: [health]
+  doi: 10.1093/eurpub/ckv151
+  data: none
+  pdf: files/academic writing/Kentikelenis et al. - 2015 - How Do Economic Crises Affect Migrants’ Risk of Infectious Disease A Systematic-Narrative Review.pdf
+
+
+- type: other
+  year: 2015
+  authors: Kentikelenis, A.
+  title: Bailouts, Austerity, and the Erosion of Health Coverage in Southern Europe and Ireland
+  venue: European Journal of Public Health
+  detail: '25(3): 365–366'
+  cats: [health]
+  doi: 10.1093/eurpub/ckv055
+  data: none
+  pdf: files/academic writing/Kentikelenis - 2015 - Bailouts, Austerity and the Erosion of Health Coverage in Southern Europe and Ireland.pdf
+  cited_in:
+  - text: IMF Independent Evaluation Office (2017). External Perspectives of the IMF and Social Protection (BD/17-01/02)
+    url: https://ieo.imf.org/en/-/media/ieo/files/evaluations/completed/07-24-2017-the-imf-and-social-protection/sp-bd2-external-perspectives-of-the-imf-and-social-protection-web.pdf
+    code: BD/17-01/02
+
+
+- type: other
+  year: 2015
+  authors: Economou, C., D. Kaitelidou, A. Kentikelenis, A. Sissouras, and A. Maresso
+  title: The Impact of the Financial Crisis on Health and the Health System in Greece
+  venue: 'Economic Crisis, Health Systems and Health in Europe: Country Experiences'
+  detail: ', ed. A. Maresso, P. Mladovsky et al. WHO European Observatory on Health Systems & Policies; pp. 103–142'
+  cats: [health]
+  data: none
+  pdf: files/academic writing/Economou et al. - 2014 - The impact of the crisis on the health system and health in Greece.pdf
+  cited_in:
+  - text: 'European Observatory on Health Systems and Policies (2017). Greece: Health System Review (HiT 19(5))'
+    url: https://iris.who.int/bitstream/handle/10665/330204/HiT-19-5-2017-eng.pdf
+    code: HiT 19(5)
+  - text: WHO Regional Office for Europe (2019). Monitoring and Documenting Systemic and Health Effects of Health Reforms in Greece
+    url: https://iris.who.int/bitstream/handle/10665/346262/WHO-EURO-2019-3599-43358-60823-eng.pdf
+    code: Monitoring and Documenting Systemic and Health Effects of Health Reforms in Greece
+
+
+- type: article
+  year: 2014
+  authors: Kentikelenis, A., M. Karanikolos, A. Reeves, M. McKee, and D. Stuckler
+  title: 'Greece’s Health Crisis: From Austerity to Denialism'
+  venue: The Lancet
+  detail: '383(9918): 748–753'
+  cats: [health]
+  fav: true
+  doi: 10.1016/S0140-6736(13)62291-6
+  data: none
+  pdf: files/academic writing/Kentikelenis et al. - 2014 - Greece’s Health Crisis - From Austerity to Denialism.pdf
+  cited_in:
+  - text: IMF Independent Evaluation Office (2017). External Perspectives of the IMF and Social Protection (BD/17-01/02)
+    url: https://ieo.imf.org/en/-/media/ieo/files/evaluations/completed/07-24-2017-the-imf-and-social-protection/sp-bd2-external-perspectives-of-the-imf-and-social-protection-web.pdf
+    code: BD/17-01/02
+  - text: WHO Regional Office for Europe (2018). Medicines Reimbursement Policies in Europe
+    url: https://www.who.int/europe/publications/i/item/9789289053365
+    code: Medicines Reimbursement Policies in Europe
+
+
+- type: other
+  year: 2014
+  authors: Kentikelenis, A., L. King, M. McKee, and D. Stuckler
+  title: The International Monetary Fund and the Ebola Outbreak
+  venue: The Lancet Global Health
+  detail: '3(2): e69–e70'
+  cats: [health, gov]
+  doi: 10.1016/S2214-109X(14)70377-8
+  data: none
+  pdf: files/academic writing/Kentikelenis et al. - 2014 - The International Monetary Fund and the Ebola Outbreak.pdf
+  cited_in:
+  - text: IMF Independent Evaluation Office (2017). External Perspectives of the IMF and Social Protection (BD/17-01/02)
+    url: https://ieo.imf.org/en/-/media/ieo/files/evaluations/completed/07-24-2017-the-imf-and-social-protection/sp-bd2-external-perspectives-of-the-imf-and-social-protection-web.pdf
+    code: BD/17-01/02
+  - text: 'European Observatory on Health Systems and Policies (2020). Strengthening Health Systems Resilience: Key Concepts and Strategies (Policy Brief 36)'
+    url: https://iris.who.int/bitstream/handle/10665/332441/Policy-brief%2036-1997-8073-eng.pdf
+    code: Policy Brief 36
+
+
+- type: other
+  year: 2012
+  authors: Kentikelenis, A., M. Karanikolos, I. Papanicolas, S. Basu, M. McKee, and D. Stuckler
+  title: Effects of Greek Economic Crisis on Health Are Real
+  venue: BMJ
+  detail: '345: e8602'
+  cats: [health]
+  doi: 10.1136/bmj.e8602
+  data: none
+  pdf: files/academic writing/Kentikelenis et al. - 2012 - Effects of Greek Economic Crisis on Health Are Real.pdf
+
+
+- type: other
+  year: 2012
+  authors: Kentikelenis, A., and I. Papanicolas
+  title: Economic Crisis, Austerity and the Greek Public Health System
+  venue: European Journal of Public Health
+  detail: '22(1): 4–5'
+  cats: [health]
+  doi: 10.1093/eurpub/ckr190
+  data: none
+  pdf: files/academic writing/Kentikelenis and Papanicolas - 2012 - Economic Crisis, Austerity and the Greek Public Health System.pdf
+
+
+- type: other
+  year: 2011
+  authors: Kentikelenis, A., M. Karanikolos, I. Papanicolas, S. Basu, M. McKee, and D. Stuckler
+  title: 'Health Effects of Financial Crisis: Omens of a Greek Tragedy'
+  venue: The Lancet
+  detail: '378(9801): 1457–1458'
+  cats: [health]
+  doi: 10.1016/S0140-6736(11)61556-0
+  data: none
+  pdf: files/academic writing/Kentikelenis et al. - 2011 - Health Effects of Financial Crisis - Omens of a Greek Tragedy.pdf
+  cited_in:
+  - text: 'International Monetary Fund (2021). Health Care Reform in Greece: Progress and Reform Priorities (WP/21/189)'
+    url: https://www.imf.org/en/publications/wp/issues/2021/07/16/health-care-reform-in-greece-progress-and-reform-priorities-461835
+    code: WP/21/189
+
+
+- type: other
+  year: 2008
+  authors: Kentikelenis, A.
+  title: 'Ethnic Interest Groups and American Foreign Policy: A Comparative Analysis'
+  venue: Hellenic Foundation for European & Foreign Policy Occasional Papers
+  detail: 08.02 (in Greek)
+  cats: [gov]
+  url: https://www.eliamep.gr/ethnotikes-omades-piesis-kai-amerikaniki-exoteriki-politiki/
+  data: none
+  pdf: files/academic writing/Kentikelenis - 2008 - Ethnic Interest Groups and American Foreign Policy - A Comparative Analysis of Greek and Jewish Lobby Mobilization in the 1970s.pdf
+
+
+- type: article
+  year: 2007
+  authors: Couloumbis, T.A., and A. Kentikelenis
+  title: Greek-Turkish Relations and the Kantian Democratic Peace Theory
+  venue: Southeast European and Black Sea Studies
+  detail: '7(4): 517–532'
+  cats: [gov]
+  doi: 10.1080/14683850701725999
+  data: none
+  pdf: files/academic writing/Couloumbis and Kentikelenis - 2007 - Greek–Turkish Relations and the Kantian Democratic Peace Theory.pdf

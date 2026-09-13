@@ -1,0 +1,62 @@
+---
+title: "Academic writing"
+listing:
+  - id: wip
+    contents: academic-writing.yml
+    include:
+      type: wip
+    sort: "year desc"
+    template: assets/pub-listing.ejs
+    filter-ui: false
+    sort-ui: false
+    page-size: 300
+  - id: pubs
+    contents: academic-writing.yml
+    include:
+      type: [article, other]
+    sort: "year desc"
+    template: assets/pub-listing.ejs
+    filter-ui: false
+    sort-ui: false
+    page-size: 300
+---
+
+<!-- To add a publication, edit publications.yml — nothing on this page needs to change. -->
+
+I have authored over 50 journal articles, as well as a range of other output. Here, I categorize all this into two broad areas of my work (global governance & international political economy; and global health & social protection), and flag my favourite articles with an emoji (🥰). 
+
+The most up-to-date list of publications is available on [my Google Scholar profile](https://scholar.google.co.uk/citations?user=WSKvdv4AAAAJ).
+
+<div class="filters-label" style="font-family:Menlo,Consolas,monospace;font-size:0.92rem;margin:0 0 0.45rem;">Filters:</div>
+<div class="pub-filters" id="pub-filters" style="display:flex;flex-wrap:nowrap;gap:0.45rem;overflow-x:auto;align-items:center;margin:0 0 1.6rem;"><a href="#" data-cat="all" class="on">All</a><a href="#" data-cat="fav" title="My favourite pieces">🥰</a><a href="#" data-cat="gov">Global governance &amp; IPE</a><a href="#" data-cat="health">Global health &amp; social protection</a></div>
+
+::: {#wip}
+:::
+
+::: {#pubs}
+:::
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const links = document.querySelectorAll("#pub-filters a");
+  function apply(cat) {
+    links.forEach(l => l.classList.toggle("on", l.dataset.cat === cat));
+    document.querySelectorAll(".pub").forEach(p => {
+      const show = cat === "all" || p.dataset.cats.split(" ").includes(cat);
+      p.classList.toggle("hidden", !show);
+    });
+    document.querySelectorAll(".pub-list").forEach(list => {
+      list.querySelectorAll(".pub-year").forEach(h => {
+        let n = h.nextElementSibling, any = false;
+        while (n && !n.classList.contains("pub-year")) { if (!n.classList.contains("hidden")) any = true; n = n.nextElementSibling; }
+        h.style.display = any ? "" : "none";
+      });
+    });
+    if (history.replaceState) history.replaceState(null, "", cat === "all" ? location.pathname : "#" + cat);
+  }
+  links.forEach(l => l.addEventListener("click", e => { e.preventDefault(); apply(l.dataset.cat); }));
+  const h = location.hash.replace("#", "");
+  if (["gov","health","fav"].includes(h)) apply(h);
+});
+</script>
+

@@ -1,0 +1,32 @@
+---
+title: "Media & Commentary"
+listing:
+  - id: opeds
+    contents: media.yml
+    include:
+      type: oped
+    sort: "year desc"
+    template: assets/pub-listing.ejs
+    filter-ui: false
+    sort-ui: false
+    page-size: 100
+---
+
+<!-- Op-eds live in media.yml (type: oped). Each entry carries url: for the
+     article link; add pdf: for an archived copy - or run tools/match_pdfs.py. -->
+
+::: {.press-note}
+**Press enquiries.** I am happy to comment on the following issues:
+<ul style="margin-top: 0; margin-bottom: 0;">
+<li>the state of international cooperation and global governance;</li>
+<li>the challenges of social protection and the green transition, especially their global dimensions;</li>
+<li>developments within major international organizations, especially the European Union, the United Nations, the International Monetary Fund, and the World Health Organization.</li>
+</ul>
+Over the years, I have been interviewed by major global media outlets, including <em>The New York Times</em>, <em>The Economist</em>, BBC, the Associated Press, and Reuters. 
+
+Email [alexandros.kentikelenis@unibocconi.it](mailto:alexandros.kentikelenis@unibocconi.it); for urgent requests, call +39 371 5350 186.
+:::
+
+
+::: {#opeds}
+:::

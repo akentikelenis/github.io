@@ -1,0 +1,184 @@
+# Policy reports (type: report). PDFs live in: files/Policy/
+
+- type: report
+  year: 2026
+  authors: Kentikelenis, A., and T. Stubbs
+  title: 'The IMF’s Climate Turn: Lending, Debt and Extractive Dependence'
+  venue: Recourse Foundation
+  cats:
+  - gov
+  pdf: none
+
+
+- type: report
+  year: 2025
+  authors: Kentikelenis, A., and T. Stubbs
+  title: 'Green Rhetoric, Grey Reality: IMF Surveillance and Climate Action, 2022–2025'
+  venue: Recourse Foundation
+  cats:
+  - gov
+  pdf: files/policy/Kentikelenis and Stubbs - 2025 - Green rhetoric, grey reality - IMF surveillance and climate action, 2022-2025.pdf
+
+
+- type: report
+  year: 2025
+  authors: Bradlow, B., and A. Kentikelenis
+  title: BRICS and the Green Industrialization of the Future
+  venue: Plataforma CIPÓ
+  cats:
+  - gov
+  pdf: files/policy/Bradlow and Kentikelenis - 2025 - BRICS and the Green Industrialization of the Future.pdf
+
+
+- type: report
+  year: 2024
+  authors: Kentikelenis, A., and T. Stubbs
+  title: 'Off Track: The Long Road to Mainstreaming Climate Action into IMF Lending'
+  venue: Recourse Foundation
+  cats:
+  - gov
+  pdf: files/policy/Kentikelenis and Stubbs - 2024 - Off track The long road to mainstreaming climate action into IMF lending.pdf
+
+
+- type: report
+  year: 2024
+  authors: Kentikelenis, A., and T. Stubbs
+  title: 'Greening IMF Lending: Elusive Prospects, Mixed Evidence'
+  venue: Recourse Foundation
+  cats:
+  - gov
+  pdf: files/policy/Kentikelenis and Stubbs - 2024 - Greening IMF lending Elusive prospects, mixed evidence.pdf
+
+
+- type: report
+  year: 2023
+  authors: Kentikelenis, A.
+  title: 'Ties that Bind: Finance Ministries, Central Banks, and the Well-Being Economy'
+  venue: World Health Organization
+  cats:
+  - health
+  note: Not public; available on request
+
+
+- type: report
+  year: 2023
+  authors: Kentikelenis, A., R. Moshrif, A. Bouzaïene, S. Mechmech, and N. Abdo
+  title: 'The Middle East and North Africa Gap: Prosperity for the Rich, Austerity for the Rest'
+  venue: Oxfam International
+  doi: 10.21201/2023.621549
+  cats:
+  - health
+  pdf: files/policy/Kentikelenis et al. - 2023 - The Middle East and North Africa Gap - Prosperity for the rich, austerity for the rest.pdf
+
+
+- type: report
+  year: 2023
+  authors: Kentikelenis, A., and T. Stubbs
+  title: 'The IMF and Social Spending Floors: A Fig Leaf for Austerity?'
+  venue: Oxfam International
+  doi: 10.21201/2023.621495
+  cats:
+  - health
+  pdf: files/policy/Kentikelenis and Stubbs - 2023 - IMF Social Spending Floors - A fig leaf for austerity.pdf
+
+
+- type: report
+  year: 2023
+  authors: Stubbs, T., and A. Kentikelenis
+  title: 'Blind Spots: The Green Transition and the IMF’s Economic Surveillance'
+  venue: Recourse Foundation
+  cats:
+  - gov
+  pdf: files/policy/Stubbs and Kentikelenis - 2023 - Blind spots.pdf
+
+
+- type: report
+  year: 2023
+  authors: Stubbs, T., and A. Kentikelenis
+  title: 'IMF Lending and the Road to Green Transition: One Step Forward, One Step Back'
+  venue: Recourse Foundation
+  cats:
+  - gov
+  pdf: files/policy/Stubbs and Kentikelenis - 2023 - IMF lending and the road to green transition.pdf
+
+
+- type: report
+  year: 2022
+  authors: Stubbs, T., and A. Kentikelenis
+  title: 'Cautious Optimism: How IMF Economic Surveillance can Foster the Green Transition'
+  venue: Recourse Foundation
+  cats:
+  - gov
+  pdf: files/policy/Stubbs and Kentikelenis - 2022 - Cautious optimism.pdf
+
+
+- type: report
+  year: 2022
+  authors: Stubbs, T., and A. Kentikelenis
+  title: 'Mixed Messages: IMF Loans and the Green Transition in Argentina and Pakistan'
+  venue: Recourse Foundation
+  cats:
+  - gov
+  pdf: files/policy/Stubbs and Kentikelenis - 2022 - Mixed messages IMF loans and the green transition.pdf
+
+
+- type: report
+  year: 2022
+  authors: Kentikelenis, A., T. Stubbs, and B. Reinsberg
+  title: The IMF and the Road to a Green and Inclusive Recovery after Covid-19
+  venue: Centre for Business Research Special Report, Cambridge Judge Business School
+  doi: 10.17863/CAM.86038
+  cats:
+  - gov
+  pdf: files/policy/Kentikelenis et al. - 2022 - The IMF and the Road to a Green and Inclusive Recovery.pdf
+
+
+- type: report
+  year: 2021
+  authors: Kentikelenis, A., and T. Stubbs
+  title: 'Missing Links: How Climate Change Remains Peripheral to IMF Economic Surveillance Activities'
+  venue: Recourse Foundation
+  cats:
+  - gov
+  pdf: files/policy/Kentikelenis and Stubbs - 2021 - Missing links.pdf
+
+
+- type: report
+  year: 2021
+  authors: Stubbs, T., and A. Kentikelenis
+  title: 'Out of the Shadows: Integrating Climate Change into IMF Technical Assistance'
+  venue: Recourse Foundation
+  cats:
+  - gov
+  pdf: files/policy/Kentikelenis and Stubbs - 2021 - Out of the shadows.pdf
+
+
+- type: report
+  year: 2021
+  authors: Kentikelenis, A., and D. Stuckler
+  title: The Politics of Funding Health Policy and Systems Research
+  venue: World Health Organization
+  cats:
+  - health
+  note: Not public; available on request
+
+
+- type: report
+  year: 2019
+  authors: Doyle, K., T. Forster, A. Kentikelenis, and H. Legido-Quigley
+  title: 'Reducing Health Inequalities: The Role of Civil Society'
+  venue: Foundation for European Progressive Studies (FEPS) 
+  cats:
+  - health
+  pdf: files/policy/Doyle et al. - 2019 - Reducing Health Inequalities - The Role of Civil Society.pdf
+
+
+- type: report
+  year: 2018
+  authors: Forster, T., A. Kentikelenis, and C. Bambra
+  title: 'Health Inequalities in Europe: Setting the Stage for Progressive Policy Action'
+  venue: Foundation for European Progressive Studies (FEPS) 
+  pdf: files/policy/Forster et al. - 2018 - Health Inequalities in Europe.pdf
+  cats:
+  - health
+
