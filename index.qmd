@@ -6,7 +6,10 @@ page-layout: article
 
 ::: {.hero}
 ![](files/images/hero.jpg){fig-alt="Alexandros Kentikelenis"}
+<a class="scroll-cue" href="#intro" aria-label="Scroll to the text">&#9662;</a>
 :::
+
+<div id="intro"></div>
 
 I am Professor of Political Economy and Sociology at Bocconi University in Milan, where I direct the [PhD Programme in Social and Political Sciences](https://www.unibocconi.it/en/programs/phd/phd-social-and-political-science) and coordinate the 'Politics and the Welfare State' research unit at the [Dondena Centre](https://dondena.unibocconi.eu/research/research-units/politics-and-welfare-state). I am a scholar of global governance, studying how international cooperation is sustained under pressure and how international organisations develop and diffuse policies that shape social protection and inequality around the world. Before moving to Milan, I held research posts at Oxford, Cambridge and Harvard. 
 
