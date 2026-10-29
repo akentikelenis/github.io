@@ -22,8 +22,12 @@ title: "Books"
 <blockquote>“De Vries and Kentikelenis explain how Europe has adapted to survive, and why today’s security and economic challenges will demand more than muddling through. A bracing and timely agenda for action, and essential reading for scholars and practitioners alike.” — <em>Simon Hix, London School of Economics</em></blockquote>
 <blockquote>“Too much has been written about the EU against an unrealistic template — one that sets the bar so high the institution is declared dead or irrelevant with exhausting regularity. <em>How Europe Survives</em> offers a brilliant corrective: an account of how the EU endures—imperfectly, but durably—that recalibrates the very yardsticks by which we judge it.” — <em>Stephanie C. Hofmann, Graduate Institute of International and Development Studies</em></blockquote>
 <blockquote>“This is exactly the book we need right now. De Vries and Kentikelenis compellingly show how the complexity, imperfections, and resilience of the European Union are a feature not a bug—and surprising sources of strength and adaptation in today’s challenging world. This creative and deeply thoughtful book is a must-read for anyone interested in a more prosperous, secure, and democratic Europe.” — <em>Kathleen R. McNamara, Georgetown University</em></blockquote>
+<blockquote>“<em>How Europe Survives</em> find[s] room for hope for European integration, despite all the gloom. De Vries and Kentikelenis have penned an emphatically pragmatic manifesto and one that seems in tune with the times.” — <em>Review by Ben Hall in the Financial Times</em></blockquote>
 </details>
-</div> 
+
+<p class="meta" style="margin:0 0 4px;"><span style="display:inline-block;padding:2.5px 10px;border-radius:3px;margin:0 7px 4px 0;font-family:Menlo,Consolas,monospace;font-size:0.66rem;letter-spacing:0.04em;text-transform:uppercase;color:#fff;text-decoration:none;background:#4338CA;">Reviewed in</span> <a href="https://www.ft.com/content/a7edc935-51b1-4f05-b41e-63fd8514538e">Financial Times</a></p>
+
+</div>
 :::
 
 ::: {.book}
